@@ -1,0 +1,105 @@
+
+
+/* shared styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header, main{
+    margin: 0 8%;
+}
+.bold{
+    font-weight: 700;
+}
+.semibold{
+    font-weight: 600;
+}
+.medium{
+    font-weight: 500;
+}
+.normal{
+    font-weight: 400;
+}
+.f32{
+    font-size: 2rem;
+}
+.btn-primary{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 10px 47px;
+    border: none;
+    background: #000;
+    border-radius: 12px;
+}
+.hide-lg{
+    display: none;
+}
+/* Navbar related styles */
+nav{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav>div{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:32px;
+}
+
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.25rem      ;
+}
+.home{
+    color: #FEA301;
+}
+.about{
+    color:#01ACFD;
+}
+.facilites{
+    color: #05D4DF;
+}
+.admission{
+    color: #5D58EF;
+}
+
+
+/* Mobile device */
+@media screen and (max-width: 576px) {
+    .hide-sm{
+        display: none;
+    }    
+    .hide-lg{
+        display: block;
+    }
+    header, main{
+        margin: 0 16px;
+    }
+    nav{
+        margin-top: 12px;
+    }
+    header hr{
+        width: calc(100% + 32px);
+        margin-left: -16px;
+        margin-top: 12px;
+        border: 0;
+        height: .5px;
+        background-color: #fea10175;
+    }
+
+}
