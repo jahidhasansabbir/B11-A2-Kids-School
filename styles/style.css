@@ -6,11 +6,12 @@
 body {
   max-width: 1440px;
   margin: 0 auto;
+  font-family: "Quicksand", serif;
 }
 header {
   margin: 0 8%;
 }
-.curriculum {
+.curriculum , footer{
   padding: 0 8%;
 }
 .mt {
@@ -268,6 +269,61 @@ nav a {
 .story-btn{
     margin-top: 80px;
 }
+
+/* Footer related styles */
+footer{
+    background: rgba(1, 172, 253, 1);
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.kids,.about,.touch{
+    max-width: 33%;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-left: -8px;
+    margin-bottom: 35px;
+}
+.logo-container img{
+    width: 82px;
+    height: 82px;
+    margin-top: -12px;
+}
+.logo-container h4{
+    font-size: 2.625rem;
+    color:white;
+}
+.kids p{
+    font-size: 1.25rem;
+    color: white;
+}
+.about-school h4, .touch h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 32px;
+}
+.about-school ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-school li{
+    color: white;
+    font-size:  1.25rem;
+    font-weight: 500;
+}
+.social-icons-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 /* Mobile device */
 @media screen and (max-width: 576px) {
   .hide-sm {
@@ -356,4 +412,22 @@ nav a {
   .story-btn{
     margin-top: 20px;
   }
+  footer{
+    flex-direction: column;
+    padding: 40px 16px 60px 16px;
+  }
+  .logo-container{
+    margin-bottom: 24px;
+} 
+.logo-container img{
+    width: 70px;
+    height: 70px;
+}
+.logo-container h4{
+    font-size: 2.25rem;
+
+}
+.kids,.about,.touch{
+    max-width: 100%;
+}
 }
