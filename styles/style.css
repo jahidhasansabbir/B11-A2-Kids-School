@@ -9,10 +9,10 @@ body {
   font-family: "Quicksand", serif;
 }
 header {
-  margin: 0 8%;
+  margin: 0 6%;
 }
 .curriculum , footer{
-  padding: 0 8%;
+  padding: 0 6%;
 }
 .mt {
   margin-top: 24px;
@@ -86,6 +86,10 @@ nav a {
 .admission {
   color: #5d58ef;
 }
+marquee{
+    margin-top: 20px;
+    width: calc(100%);
+}
 /* Bannar related styles */
 .banner {
   display: flex;
@@ -97,7 +101,7 @@ nav a {
   max-width: 640px;
 }
 .banner-content h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 .empowering {
@@ -141,6 +145,7 @@ nav a {
   gap: 20px;
   padding: 28px;
   border-radius: 18px;
+  flex-basis: 33%;
 }
 .card-1 {
   border: 1px solid #def5ff64;
@@ -239,7 +244,7 @@ nav a {
 .story-card button {
   background: #3cd7e8;
   border-radius: 48px;
-  padding: 16px;
+  padding: 10px 16px;
   color: white;
   font-weight: 500;
   border: none;
@@ -334,6 +339,8 @@ footer{
   }
   .btn-primary {
     padding: 10px 24px;
+    font-size: 1rem;
+    font-family: "Quicksand", serif;;
   }
 
   header {
@@ -360,6 +367,12 @@ footer{
     border: 0;
     height: 0.5px;
     background-color: #fea10175;
+  }
+  marquee{
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    margin-top: 12px;
+    font-size: 1rem;
   }
   .banner {
     flex-direction: column-reverse;
