@@ -11,7 +11,7 @@ body {
 header {
   margin: 0 6%;
 }
-.curriculum , footer{
+.curriculum{
   padding: 0 6%;
 }
 .mt {
@@ -281,8 +281,10 @@ footer{
     display: flex;
     justify-content: space-between;
     gap: 32px;
+    padding: 0 10%;
     padding-top: 100px;
     padding-bottom: 80px;
+    
 }
 .kids,.about,.touch{
     max-width: 33%;
